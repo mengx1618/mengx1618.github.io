@@ -1,0 +1,17 @@
+body{
+    font-size: 200%;
+}
+
+h1{
+    font-size: 150%;
+    color: blueviolet;
+    text-emphasis: shadow 10px;
+}
+
+.qux{
+    color: aquamarine;
+}
+
+p{
+    color: blue
+}
