@@ -12,7 +12,7 @@ h1{
     color: aquamarine;
 }
 
-h2{
+h3{
     color:blueviolet;
 }
 
@@ -22,4 +22,9 @@ li{
 
 p{
     color: blue
+}
+
+img{
+    height: 200px;
+    width: 200px;
 }
