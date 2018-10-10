@@ -59,3 +59,11 @@ typings/
 
 # next.js build output
 .next
+
+# IDE Files
+.idea
+.c9
+
+# Other
+node_modules
+bower_components
