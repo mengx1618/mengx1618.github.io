@@ -7,6 +7,37 @@ button {
     font-size: 16px;
 }
 
-h1.center{
+header{
+    background-color: darkgrey;
     text-align: center;
+}
+
+header p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+h1#new-point{
+    text-align:right;
+}
+
+main{
+    background-color: lightblue;
+}
+
+footer{
+    text-align: center;
+    background-color: lightgray;
+}
+
+.byline{
+    font-style: italic;
+    font-size: 100%;
+}
+
+img#mountain{
+    width: 100px;
+    height:100px;
+    float:left;
 }
