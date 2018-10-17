@@ -2,23 +2,57 @@ body{
     background-color:rgb(71, 65, 65);
 }
 
-.container {
-    position: relative;
+header{
     text-align: center;
-    color: white;
+    background-color: rgb(12, 11, 11);    
 }
 
-.h1 {
+main{
+    background-color:rgb(71, 65, 65);
+}
+
+footer{
+    background-color: rgb(71, 65, 65);
+    text-align: center;
+}
+
+figure{
+    position: relative;
+}
+
+h1 {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: red;
-    font-size: 300%;
+    font-size: 380%;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 p{
     color: red;
     font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+a{
+    color: red;
+}
+    
+.byline{
+    color: red;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 100%;
+    font-style:bold;
+}
+
+img#pic1{
+    width:100%;
+    height: 350px;
+}
+
+img#pic2{
+    width: 200px;
+    height: 200px;
+    float:right;
 }
