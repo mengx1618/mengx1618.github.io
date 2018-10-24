@@ -5,6 +5,7 @@ button {
     color: greenyellow;
     text-align: center;    
     font-size: 16px;
+    padding: 12px;
 }
 
 header{
@@ -31,9 +32,43 @@ footer{
     background-color: lightgray;
 }
 
+aside{
+    background-color: #DC4828;
+    float:right;
+    width:100px;
+    padding: 15px;
+    border-radius:solid;
+    border: 5px blue;
+    font-size: 120%;
+}
+
 .byline{
     font-style: italic;
     font-size: 100%;
+}
+
+.elf-div-border{
+    display:inline-block;
+    border: 1px black solid;
+}
+
+button.test-button{
+    padding-top: 25px;    
+    border: blue 10px solid;
+    border-radius: 22px;
+}
+
+button.test-button:hover{
+    background-color: rgb(255, 196, 250);
+}
+
+button.margin-button{
+    margin: 50px;
+}
+
+div#margin-div{
+    display:inline-block;
+    border: 1px black solid;
 }
 
 img#mountain{
