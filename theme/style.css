@@ -30,6 +30,28 @@ h1 {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
+nav {        
+    background-color: black;
+    border: 1px green solid;
+    padding: 8px;
+    margin: -1px 0px 0px 0px;
+    display: flex;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav li {
+    display: inline;
+    padding: 15px;   
+    text-decoration-color: red;
+    font-family: "Comic Sans MS", cursive, sans-serif; 
+}
+
 p{
     color: red;
     font-family: "Comic Sans MS", cursive, sans-serif;
