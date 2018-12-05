@@ -5,14 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Prog109 HOME</title>
-    <link rel=stylesheet href="homestyle.css">
-    <link rel="shortcut icon" type="image/png" href="/Favicon.png"/>
+    <link rel="stylesheet" href="homestyle.css" id="default">
+    <link  rel="alternate stylesheet" href="alt_homestyle.css" type="text/css" id="alt_homestyle">
+    <link rel="shortcut icon" type="image/png" href="Favicon.png">
+    <script src="alt_homebackground.js"></script>
 </head>
 <body>
 
     <header class = "style">
         <h1>PROG 109 HOME</h1>
         <p class = "byline">by Xue Meng</p>
+        <div class="wrapper">
+                <button id="appearanceAction" type="button">Alternative Stylesheet</button>
+        </div>
     </header>
 
     <nav>
@@ -25,7 +30,7 @@
     <main class="style">
         <h2 id="assignments">Assignments</h2>
 
-        <img src="images/Xue Meng.png" >
+        <img src="images/XueMeng.png">
 
         <ul>
             <li><a href="https://mengx1618.github.io/others/resume.html" target="_blank">Resume</a></li>

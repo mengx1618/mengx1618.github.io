@@ -4,18 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+    <script src="alt_themebackground.js"></script>
+    <link rel="stylesheet" href="style.css" id="default">
+    <link  rel="alternate stylesheet" href="alt_style.css" type="text/css" id="alt_themestyle">
+    <link rel="shortcut icon" type="image/png" href="themeimg/favicon.ico">
     <title>Horror Movies</title>
 </head>
 
 <body id="homebody">
     <div class="fix">
     <header>
-            <figure> 
-                    <img id="pic1" src="themeimg/head.jpg" alt="header_pic">
-                    <h1 id="homeh1">Horror Movie Night</h1>
-                    <p class="byline">by Xue Meng</p>
-            </figure>
+        <figure> 
+            <img id="pic1" src="themeimg/head.jpg" alt="header_pic">
+            <h1 id="homeh1">Horror Movie Night</h1>
+            <p class="byline">by Xue Meng</p>
+            <div class="wrapper">
+                    <button id="appearanceAction" type="button">Alternative Stylesheet</button>
+            </div>
+        </figure>
     </header>
 
     <nav class="horizonnav">
